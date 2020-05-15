@@ -19,3 +19,6 @@ Route::get('/', function () {
 
 Route::get('/index', 'EquipoController@index');
 Route::post('/store', 'EquipoController@store');
+
+Route::get('/index_2', 'JugadorController@index');
+Route::post('/store_2', 'JugadorController@store');
